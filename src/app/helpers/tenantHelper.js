@@ -78,7 +78,6 @@ module.exports = {
         }
       }, function (err, results) {
         if (err) { }
-        console.log('eerr', err , 'resul', results);
         responseObj.logo = results.logo
           ? results.logo : baseUrl + '/assets/images/sunbird_logo.png'
         responseObj.poster = results.poster
